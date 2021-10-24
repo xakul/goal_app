@@ -22,6 +22,8 @@ export default function App() {
       return goals.filter((goal) => goal.id !== goalId);
     })
   }
+  
+  
 
   return (
     <View style={styles.screen}>
